@@ -1,0 +1,19 @@
+{
+  "name": "simple-http",
+  "version": "1.0.0",
+  "description": "Simple HTTP Homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Kegan Sovay",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
